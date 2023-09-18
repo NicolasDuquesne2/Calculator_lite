@@ -51,8 +51,8 @@ Partial Class CalcForm
         Key7.Location = New Point(10, 144)
         Key7.Name = "Key7"
         Key7.Size = New Size(75, 57)
-        Key7.TabIndex = 0
-        Key7.Text = "7"
+        Key7.TabIndex = 5
+        Key7.Text = "5"
         Key7.UseVisualStyleBackColor = True
         ' 
         ' Key8
@@ -60,8 +60,8 @@ Partial Class CalcForm
         Key8.Location = New Point(91, 144)
         Key8.Name = "Key8"
         Key8.Size = New Size(75, 57)
-        Key8.TabIndex = 1
-        Key8.Text = "8"
+        Key8.TabIndex = 7
+        Key8.Text = "6"
         Key8.UseVisualStyleBackColor = True
         ' 
         ' Key9
@@ -69,8 +69,8 @@ Partial Class CalcForm
         Key9.Location = New Point(172, 144)
         Key9.Name = "Key9"
         Key9.Size = New Size(75, 57)
-        Key9.TabIndex = 2
-        Key9.Text = "9"
+        Key9.TabIndex = 8
+        Key9.Text = "7"
         Key9.UseVisualStyleBackColor = True
         ' 
         ' KeyDiv
@@ -78,7 +78,7 @@ Partial Class CalcForm
         KeyDiv.Location = New Point(253, 81)
         KeyDiv.Name = "KeyDiv"
         KeyDiv.Size = New Size(75, 57)
-        KeyDiv.TabIndex = 3
+        KeyDiv.TabIndex = 4
         KeyDiv.Text = "/"
         KeyDiv.UseVisualStyleBackColor = True
         ' 
@@ -88,9 +88,9 @@ Partial Class CalcForm
         KeyMul.Location = New Point(253, 144)
         KeyMul.Name = "KeyMul"
         KeyMul.Size = New Size(75, 57)
-        KeyMul.TabIndex = 4
+        KeyMul.TabIndex = 9
         KeyMul.Text = "X"
-        KeyMul.UseVisualStyleBackColor = False
+        KeyMul.UseVisualStyleBackColor = True
         ' 
         ' KeyLess
         ' 
@@ -98,9 +98,9 @@ Partial Class CalcForm
         KeyLess.Location = New Point(253, 207)
         KeyLess.Name = "KeyLess"
         KeyLess.Size = New Size(75, 57)
-        KeyLess.TabIndex = 5
+        KeyLess.TabIndex = 13
         KeyLess.Text = "-"
-        KeyLess.UseVisualStyleBackColor = False
+        KeyLess.UseVisualStyleBackColor = True
         ' 
         ' KeyPlus
         ' 
@@ -108,17 +108,18 @@ Partial Class CalcForm
         KeyPlus.Location = New Point(253, 270)
         KeyPlus.Name = "KeyPlus"
         KeyPlus.Size = New Size(75, 57)
-        KeyPlus.TabIndex = 6
+        KeyPlus.TabIndex = 17
         KeyPlus.Text = "+"
-        KeyPlus.UseVisualStyleBackColor = False
+        KeyPlus.UseVisualStyleBackColor = True
+        KeyPlus.UseWaitCursor = True
         ' 
         ' Key6
         ' 
         Key6.Location = New Point(172, 207)
         Key6.Name = "Key6"
         Key6.Size = New Size(75, 57)
-        Key6.TabIndex = 9
-        Key6.Text = "6"
+        Key6.TabIndex = 12
+        Key6.Text = "10"
         Key6.UseVisualStyleBackColor = True
         ' 
         ' Key5
@@ -126,8 +127,8 @@ Partial Class CalcForm
         Key5.Location = New Point(91, 207)
         Key5.Name = "Key5"
         Key5.Size = New Size(75, 57)
-        Key5.TabIndex = 8
-        Key5.Text = "5"
+        Key5.TabIndex = 11
+        Key5.Text = "9"
         Key5.UseVisualStyleBackColor = True
         ' 
         ' Key4
@@ -135,8 +136,8 @@ Partial Class CalcForm
         Key4.Location = New Point(10, 207)
         Key4.Name = "Key4"
         Key4.Size = New Size(75, 57)
-        Key4.TabIndex = 7
-        Key4.Text = "4"
+        Key4.TabIndex = 10
+        Key4.Text = "8"
         Key4.UseVisualStyleBackColor = True
         ' 
         ' Key3
@@ -144,7 +145,7 @@ Partial Class CalcForm
         Key3.Location = New Point(172, 270)
         Key3.Name = "Key3"
         Key3.Size = New Size(75, 57)
-        Key3.TabIndex = 12
+        Key3.TabIndex = 16
         Key3.Text = "3"
         Key3.UseVisualStyleBackColor = True
         ' 
@@ -153,7 +154,7 @@ Partial Class CalcForm
         Key2.Location = New Point(91, 270)
         Key2.Name = "Key2"
         Key2.Size = New Size(75, 57)
-        Key2.TabIndex = 11
+        Key2.TabIndex = 15
         Key2.Text = "2"
         Key2.UseVisualStyleBackColor = True
         ' 
@@ -162,7 +163,7 @@ Partial Class CalcForm
         Key1.Location = New Point(10, 270)
         Key1.Name = "Key1"
         Key1.Size = New Size(75, 57)
-        Key1.TabIndex = 10
+        Key1.TabIndex = 14
         Key1.Text = "1"
         Key1.UseVisualStyleBackColor = True
         ' 
@@ -171,7 +172,7 @@ Partial Class CalcForm
         KeyComma.Location = New Point(172, 333)
         KeyComma.Name = "KeyComma"
         KeyComma.Size = New Size(75, 57)
-        KeyComma.TabIndex = 15
+        KeyComma.TabIndex = 20
         KeyComma.Text = ","
         KeyComma.UseVisualStyleBackColor = True
         ' 
@@ -180,7 +181,7 @@ Partial Class CalcForm
         Key0.Location = New Point(91, 333)
         Key0.Name = "Key0"
         Key0.Size = New Size(75, 57)
-        Key0.TabIndex = 14
+        Key0.TabIndex = 19
         Key0.Text = "0"
         Key0.UseVisualStyleBackColor = True
         ' 
@@ -189,7 +190,7 @@ Partial Class CalcForm
         KeyReverse.Location = New Point(10, 333)
         KeyReverse.Name = "KeyReverse"
         KeyReverse.Size = New Size(75, 57)
-        KeyReverse.TabIndex = 13
+        KeyReverse.TabIndex = 18
         KeyReverse.Text = "+/-"
         KeyReverse.UseVisualStyleBackColor = True
         ' 
@@ -198,7 +199,7 @@ Partial Class CalcForm
         KeyCalc.Location = New Point(253, 333)
         KeyCalc.Name = "KeyCalc"
         KeyCalc.Size = New Size(75, 57)
-        KeyCalc.TabIndex = 16
+        KeyCalc.TabIndex = 21
         KeyCalc.Text = "="
         KeyCalc.UseVisualStyleBackColor = True
         ' 
@@ -207,7 +208,7 @@ Partial Class CalcForm
         KeyPercent.Location = New Point(10, 81)
         KeyPercent.Name = "KeyPercent"
         KeyPercent.Size = New Size(75, 57)
-        KeyPercent.TabIndex = 17
+        KeyPercent.TabIndex = 1
         KeyPercent.Text = "%"
         KeyPercent.UseVisualStyleBackColor = True
         ' 
@@ -216,7 +217,7 @@ Partial Class CalcForm
         KeyPartClear.Location = New Point(91, 81)
         KeyPartClear.Name = "KeyPartClear"
         KeyPartClear.Size = New Size(75, 57)
-        KeyPartClear.TabIndex = 18
+        KeyPartClear.TabIndex = 2
         KeyPartClear.Text = "CE"
         KeyPartClear.UseVisualStyleBackColor = True
         ' 
@@ -225,7 +226,7 @@ Partial Class CalcForm
         KeyClearAll.Location = New Point(172, 81)
         KeyClearAll.Name = "KeyClearAll"
         KeyClearAll.Size = New Size(75, 57)
-        KeyClearAll.TabIndex = 19
+        KeyClearAll.TabIndex = 3
         KeyClearAll.Text = "C"
         KeyClearAll.UseVisualStyleBackColor = True
         ' 
