@@ -4,3 +4,4 @@
 
 This is a simple calcutor witch handles basic operations (+-/*) and percent calculatons
 
+![calculator](Resources/Calculator.png)
