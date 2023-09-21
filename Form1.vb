@@ -1,5 +1,4 @@
-﻿Imports System.Linq.Expressions
-Imports System.Text.RegularExpressions
+﻿Imports System.Text.RegularExpressions
 
 Public Class CalcForm
     Private Sub KeyPercent_Click(sender As Object, e As EventArgs) Handles KeyPercent.Click

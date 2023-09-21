@@ -52,7 +52,7 @@ Partial Class CalcForm
         Key7.Name = "Key7"
         Key7.Size = New Size(75, 57)
         Key7.TabIndex = 5
-        Key7.Text = "5"
+        Key7.Text = "7"
         Key7.UseVisualStyleBackColor = True
         ' 
         ' Key8
@@ -61,7 +61,7 @@ Partial Class CalcForm
         Key8.Name = "Key8"
         Key8.Size = New Size(75, 57)
         Key8.TabIndex = 7
-        Key8.Text = "6"
+        Key8.Text = "8"
         Key8.UseVisualStyleBackColor = True
         ' 
         ' Key9
@@ -70,7 +70,7 @@ Partial Class CalcForm
         Key9.Name = "Key9"
         Key9.Size = New Size(75, 57)
         Key9.TabIndex = 8
-        Key9.Text = "7"
+        Key9.Text = "9"
         Key9.UseVisualStyleBackColor = True
         ' 
         ' KeyDiv
@@ -119,7 +119,7 @@ Partial Class CalcForm
         Key6.Name = "Key6"
         Key6.Size = New Size(75, 57)
         Key6.TabIndex = 12
-        Key6.Text = "10"
+        Key6.Text = "6"
         Key6.UseVisualStyleBackColor = True
         ' 
         ' Key5
@@ -128,7 +128,7 @@ Partial Class CalcForm
         Key5.Name = "Key5"
         Key5.Size = New Size(75, 57)
         Key5.TabIndex = 11
-        Key5.Text = "9"
+        Key5.Text = "5"
         Key5.UseVisualStyleBackColor = True
         ' 
         ' Key4
@@ -137,7 +137,7 @@ Partial Class CalcForm
         Key4.Name = "Key4"
         Key4.Size = New Size(75, 57)
         Key4.TabIndex = 10
-        Key4.Text = "8"
+        Key4.Text = "4"
         Key4.UseVisualStyleBackColor = True
         ' 
         ' Key3
